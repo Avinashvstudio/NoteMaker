@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/contact"
+            android:icon="@drawable/baseline_contacts_24"
+            android:background="?android:attr/selectableItemBackground"/>
+        />
+
+        <item
+            android:id="@+id/privacy_policy"
+            android:title="@string/privacy_policy"
+            android:icon="@drawable/privacy_tip_24"
+            android:background="?android:attr/selectableItemBackground"/>
+
+    </group>
+
+<!--    <group android:checkableBehavior="single">-->
+
+<!--        <item-->
+<!--            android:title = "Privacy Policy">-->
+
+<!--            <menu>-->
+<!--                <item-->
+<!--                    android:id="@+id/nav_home"-->
+<!--                    android:title="Home"-->
+<!--                    android:icon="@drawable/baseline_home_24"/>-->
+<!--            </menu>-->
+
+
+<!--        </item>-->
+<!--    </group>-->
+</menu>
